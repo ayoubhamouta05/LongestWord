@@ -44,7 +44,7 @@ class HistoryAdapter : RecyclerView.Adapter<HistoryAdapter.ViewHolder>() {
             if (data.player == "First Player"){
                 playerTv.setTextColor(Color.BLUE)
             }else{
-                playerTv.setTextColor(Color.YELLOW)
+                playerTv.setTextColor(Color.RED)
             }
         }
 

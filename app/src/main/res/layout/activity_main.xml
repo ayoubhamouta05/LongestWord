@@ -20,11 +20,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <NumberPicker
         android:id="@+id/numberPicker"
         android:layout_width="100dp"
         android:layout_marginTop="20dp"
+        android:elevation="30dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/_picker_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"/>
@@ -35,6 +38,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp"
         android:text="Start Game"
+        android:background="@drawable/btn_background"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

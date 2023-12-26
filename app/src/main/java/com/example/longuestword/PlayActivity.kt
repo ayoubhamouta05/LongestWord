@@ -272,6 +272,7 @@ class PlayActivity : AppCompatActivity() {
             finishAffinity()
         }
         alertDialog.show()
+
     }
 
     private fun insertWordsFromFileIntoTree(context: Context, fileName: String) {
