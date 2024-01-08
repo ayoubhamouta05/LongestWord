@@ -45,3 +45,15 @@ In the **PlayActivity**, a list of **HistoryData** is created to store player tr
 
 - The tree is initially populated with an array of letters randomly selected using the `drawnRandom` function.
 - The `insertWordsFromFileIntoTree` function reads each line from a file and inserts the words into the tree.
+
+
+## Screenshots
+
+<img src="https://github.com/ayoubhamouta05/LongestWord/assets/103429679/a38d039e-26f9-4772-af2a-e196b47b256a" width="300" />
+<img src="https://github.com/ayoubhamouta05/LongestWord/assets/103429679/4a88d630-50f9-45d0-8d8f-bd470fb73aac" width="300" />
+<img src="https://github.com/ayoubhamouta05/LongestWord/assets/103429679/d7748173-5de1-4a52-951c-53174fa40383" width="300" />
+<img src="https://github.com/ayoubhamouta05/LongestWord/assets/103429679/3b0452c9-a878-4133-a3c7-89aba359fb82" width="300" />
+<img src="https://github.com/ayoubhamouta05/LongestWord/assets/103429679/c7e31a1f-5dff-4133-8d13-a81dc93e0a08" width="300" />
+
+
+
