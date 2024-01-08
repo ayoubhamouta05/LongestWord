@@ -196,7 +196,7 @@ class PlayActivity : AppCompatActivity() {
                     root.deleteCompletely()
                     showWinDialog(input)
                 } else {
-                    message = "word is correct but not the biggest : try again"
+                    message = "word is correct but not the longest : try again"
                 }
             } else {
                 message = "word is incorrect : try again"
@@ -267,6 +267,7 @@ class PlayActivity : AppCompatActivity() {
             val intent = Intent(this@PlayActivity, MainActivity::class.java)
             dialog.dismiss()
             startActivity(intent)
+            finish()
         }
         alertDialog.setNegativeButton("Exit game") { dialog, _ ->
             finishAffinity()
